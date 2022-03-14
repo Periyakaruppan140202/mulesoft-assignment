@@ -1,15 +1,17 @@
 {
-  "name": "MovieDB-Mulesoft",
+  "name": "mulesoft-assignment",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pg": "^8.7.3"
+    "pg": "^8.7.3",
+    "readline": "^1.3.0"
   }
 }
